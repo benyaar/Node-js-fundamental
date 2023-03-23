@@ -2,11 +2,13 @@ const Emitter = require('events')
 
 const emitter = new Emitter()
 
-emitter.on('message', (data, second, third) => {
+emitter.on('message', (data, second) => {
     console.log(`Your message ${data}`)
     console.log(`second argument ${second}`)
 })
-// emitter.once('message', callback)
+ emitter.once('message', () => {
+     console.log('it works')
+ })
 //
 // emitter.emit('message')
 // emitter.emit('message')
