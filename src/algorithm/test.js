@@ -65,7 +65,7 @@
      return newArray
  }
 
-// console.log(withoutRepeat2([1,1,1,3,4,5,4,4,4,3,3,6,9,2]))
+ console.log(withoutRepeat2([1,1,1,3,4,5,4,4,4,3,3,6,9,2]))
 
 
 
